@@ -1,0 +1,44 @@
+{
+  "name": "alt-header-fixed",
+  "description": "A directive to make table headers fixed at the screen while the user scrolls the page",
+  "main": "index.js",
+  "keywords": [
+    "angularJS",
+    "table",
+    "header",
+    "fixed",
+    "directive"
+  ],
+  "authors": [
+    "Diego T. Fialho"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dsn-nimbus/alt-header-fixed.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "jquery": "2.1.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.8"
+  },
+  "resolutions": {
+    "angular": "1.4.8",
+    "angular-mocks": "1.4.8"
+  },
+  "_release": "65b52e3518",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "65b52e35184922d28dcab0f0bd80301fb6e0b436"
+  },
+  "_source": "https://github.com/dsn-nimbus/alt-header-fixed.git",
+  "_target": "*",
+  "_originalSource": "alt-header-fixed"
+}

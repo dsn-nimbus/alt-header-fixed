@@ -1,0 +1,45 @@
+{
+  "name": "alt-header-fixed",
+  "version": "1.0.4",
+  "description": "A directive to make table headers fixed at the screen while the user scrolls the page",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "npm run build && git add -A",
+    "build": "gulp build",
+    "test-watch": "gulp test-watch",
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babili": "0.0.7",
+    "eslint": "^4.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^4.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "hoek": "^5.0.3",
+    "husky": "^0.14.3",
+    "jasmine-core": "^2.9.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-ng-html2js-preprocessor": "^1.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "keywords": [
+    "AngularJS",
+    "table",
+    "header",
+    "fixed",
+    "directive"
+  ],
+  "author": "Diego T. Fialho",
+  "license": "MIT"
+}
