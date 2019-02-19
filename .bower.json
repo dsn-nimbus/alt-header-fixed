@@ -1,5 +1,5 @@
 {
-  "name": "alt-header-fixed",
+  "name": "alt-header-fix",
   "description": "A directive to make table headers fixed at the screen while the user scrolls the page",
   "main": "index.js",
   "keywords": [
